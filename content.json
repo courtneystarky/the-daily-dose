@@ -1,0 +1,396 @@
+{
+  "edition": "2026-10-09",
+  "updated": "2026-10-09T21:34:31.034946-04:00",
+  "feeds": {
+    "world": {
+      "items": [
+        {
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T00:45:51+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:30:22+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T18:40:10+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T23:02:07+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:50:47+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:26:30+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T17:37:10+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Man named Hitler Mussolini elected mayor in Peru",
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:32:22+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Three men found guilty of murdering two Australian surfer brothers and US friend",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:55:51+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T17:14:44+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:24:43+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Commentator Katie Zacharia picked as new White House press secretary",
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:41:21+00:00",
+          "source": "BBC News"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T01:34:31.133261+00:00"
+    },
+    "technology": {
+      "items": [
+        {
+          "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:32:30+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Anthropic bans users from being 'cruel' to its AI systems",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T12:34:27+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T09:30:49+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+          "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T07:14:30+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Careless use of AI is the real threat - not the ghost stories'",
+          "url": "https://www.bbc.co.uk/news/articles/cjzxz9yp1kq9o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T07:05:01+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Why are more roofs not made of solar tiles?",
+          "url": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T23:09:56+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House blocks Microsoft from foreign worker hiring programme",
+          "url": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T21:37:35+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Asos hackers took more personal details than first revealed, BBC finds",
+          "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T16:29:33+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "AI chip boom pushes Samsung profits to record $80bn",
+          "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T01:59:54+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-07T23:50:29+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-07T20:34:17+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rainmakers: The drones used to seed clouds",
+          "url": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-07T07:09:32+00:00",
+          "source": "BBC News"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T01:34:31.297924+00:00"
+    },
+    "business": {
+      "items": [
+        {
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T00:45:51+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:30:22+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Boots has a new owner: Three ways it could affect you",
+          "url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T23:01:14+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Burnham promises to curb non-compete rules in job contracts",
+          "url": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:15:30+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T14:36:35+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "I've been with my boyfriend for two years and don't know his salary",
+          "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T09:37:38+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Anthropic bans users from being 'cruel' to its AI systems",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T12:34:27+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
+          "url": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T19:32:50+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Add me on WhatsApp' scam calls to be investigated",
+          "url": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T23:05:09+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T09:30:49+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House blocks Microsoft from foreign worker hiring programme",
+          "url": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T21:37:35+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
+          "url": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T23:14:02+00:00",
+          "source": "BBC News"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T01:34:31.303861+00:00"
+    },
+    "football": {
+      "items": [
+        {
+          "title": "Greek takeaways: What did we learn from Lionesses' win?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:15:24+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Arteta's conscience clear over Man City charges",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6d93ql8jvdko?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:30:52+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Man City whistleblower to remain in witness protection",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq4g1xerk398o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:59:32+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "I've got my own questions on Man City case - Carrick",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynv45lymdo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T14:30:38+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Will anyone stop re-election of Infantino as Fifa president?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:28:23+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Man City titles 'absolutely not' tainted - Maresca",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmzxjdvv784xo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T14:08:55+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Everton up for sale again - so what next as owners TFG look for a way out?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3y0e8n9q4e0o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:38:59+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Arsenal eye deal for teenager Mora - Saturday's gossip",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cxr5y36yml21o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:19:35+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "What reception awaits Man City at Anfield?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjkgey07lq15o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T14:02:46+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Is £70m Baleba ready for his Man Utd exam?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ck054p2lyeplo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T07:57:23+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Sutton's predictions v Starsailor frontman James Walsh",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5zjx92v1mero?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T20:46:40+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "NI World Cup hopes gone from 'improbable to impossible'",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6gqw03lxxnno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:24:28+00:00",
+          "source": "BBC Sport"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T01:34:31.366172+00:00"
+    },
+    "nfl": {
+      "items": [
+        {
+          "title": "Inside the NFL's wild endings and why coaches need to adapt",
+          "url": "https://www.espn.com/nfl/story/_/id/50135925/wild-endings-cowboys-ravens-touchback",
+          "published": "2026-10-09T15:19:45-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Legendary coach, Hall of Fame TE Ditka dies at age 86",
+          "url": "https://www.espn.com/nfl/story/_/id/50140701/legendary-coach-hall-fame-te-mike-ditka-dies-age-86",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Bears RB Monangai out, QB Williams questionable vs. Packers",
+          "url": "https://www.espn.com/nfl/story/_/id/50142140/bears-rb-monangai-qb-williams-now-questionable-vs-packers",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Webb: 'Not ideal' to lose Broncos' playcalling duties",
+          "url": "https://www.espn.com/nfl/story/_/id/50142757/broncos-oc-davis-webb-says-not-ideal-lose-play-calling-duties",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "RB Barkley, WR Smith among 5 Eagles ruled out for London game vs. Jags",
+          "url": "https://www.espn.com/nfl/story/_/id/50142553/saquon-barkley-devonta-smith-eagles-players-ruled-london-game-vs-jaguars",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Rams' Donald plans to play MNF vs. Bills after missing game",
+          "url": "https://www.espn.com/nfl/story/_/id/50143342/rams-aaron-donald-practices-full-plans-play-mnf-vs-bills",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ravens rule out QB Jackson, turn to Huntley for SNF vs. Falcons",
+          "url": "https://www.espn.com/nfl/story/_/id/50141743/ravens-qb-lamar-jackson-huntley-start-snf-vs-falcons",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Giants expect Nabers, Thomas, Skattebo, Likely to play Sunday",
+          "url": "https://www.espn.com/nfl/story/_/id/50142255/giants-expect-nabers-thomas-skattebo-likely-play-sunday",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "49ers DE Williams set for season debut after tearing ACL last November",
+          "url": "https://www.espn.com/nfl/story/_/id/50143042/san-francisco-49ers-mykel-williams-make-season-debut-vs-seattle-seahawks",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "🤔 Carlie Irsay-Gordon's presence on Colts sideline reignites debate",
+          "url": "https://www.espn.com/nfl/story/_/id/50120611/indianapolis-colts-carlie-irsay-gordon-sideline",
+          "published": "2026-10-09T19:37:08-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Our guide to every NFL Week 5 game: Matchup previews, predictions, picks and nuggets",
+          "url": "https://www.espn.com/nfl/story/_/id/50129471/week-5-picks-predictions-schedule-fantasy-odds-2026",
+          "published": "2026-10-09T15:19:39-05:00",
+          "source": "ESPN"
+        },
+        {
+          "title": "Latest intel on Week 5: What we're hearing on key injuries, potential trades, more",
+          "url": "https://www.espn.com/nfl/story/_/id/50116787/week-5-buzz-fantasy-predictions-graziano-fowler-2026",
+          "published": "2026-10-09T15:19:39-05:00",
+          "source": "ESPN"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T01:34:31.131768+00:00"
+    }
+  }
+}

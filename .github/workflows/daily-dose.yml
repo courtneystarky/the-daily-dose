@@ -32,7 +32,7 @@ jobs:
       - name: Package public website only
         run: |
           mkdir dist
-          cp index.html daily.js content.json dist/
+          cp index.html daily.js content.json manifest.webmanifest apple-touch-icon.png favicon.png icon-192.png icon-512.png dist/
           touch dist/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -101,6 +101,9 @@ $('#zodiac .zodiac-grid').innerHTML='<article class="panel cosmic-reading"><div 
 $('#cosmic-prompt').innerHTML='<div class="eyebrow">A QUESTION FOR YOUR COFFEE</div><p>'+esc(reading[4])+'</p>';
 $('#rabbit .two').innerHTML='<div class="panel yellow"><div class="large-call">'+facts[n][0]+'</div></div><div><p>'+facts[n][1]+'</p><a href="'+facts[n][2]+'">Explore the source ↗</a></div>';
 $('#good .spotlight').textContent=good[n];
+const jokes=[["Why did my calendar ask for a rest day?", "It was tired of running my life."], ["I told my coffee I needed some space.", "It said, “Fine. But you’ll come crawling back by 9.”"], ["Why is my marathon plan so bad at small talk?", "It always goes on for miles."], ["My Portuguese vocabulary and my running mileage have something in common.", "They both disappear when someone asks me a question."], ["I asked my big three to agree on dinner.", "Aquarius wanted something new, Cancer wanted comfort food, and Pisces imagined a restaurant that doesn’t exist."], ["Why did Tottenham come to my meditation session?", "Apparently we’re all practicing letting go."], ["I bought a planner to become more spontaneous.", "I’ve scheduled that for next Thursday."]];
+$('#good').insertAdjacentHTML('beforeend','<div class="panel yellow" id="daily-joke" style="margin-top:16px"><div class="eyebrow">THE DAILY GROAN ☕</div><h3 style="margin-top:14px">'+esc(jokes[n][0])+'</h3><details><summary style="cursor:pointer;font-weight:700">Okay, tell me…</summary><p>'+esc(jokes[n][1])+'</p></details></div>');
+
 document.body.classList.add('ready');
 $('.footer .bottom').textContent='THE DAILY DOSE® / MORNING EDIT / '+data.edition;
 })();

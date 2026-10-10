@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
-import json, re, subprocess, xml.etree.ElementTree as ET
+import html, json, re, subprocess, xml.etree.ElementTree as ET
 
 FEEDS = {'world':'https://feeds.bbci.co.uk/news/world/rss.xml','technology':'https://feeds.bbci.co.uk/news/technology/rss.xml','business':'https://feeds.bbci.co.uk/news/business/rss.xml','football':'https://feeds.bbci.co.uk/sport/football/rss.xml','nfl':'https://feeds.bbci.co.uk/sport/american-football/rss.xml'}
 
@@ -21,6 +21,10 @@ def fetch(pair):
             title=item.findtext('title','').strip()
             link=item.findtext('link','').strip()
             date=item.findtext('pubDate','')
+            summary=html.unescape(re.sub(r'<[^>]+>', ' ', item.findtext('description','')))
+            summary=' '.join(summary.split())
+            words=summary.split()
+            summary=' '.join(words[:65])+('…' if len(words)>65 else '')
             try: published=parsedate_to_datetime(date)
             except (ValueError,TypeError): continue
             if published.tzinfo is None: published=published.replace(tzinfo=ZoneInfo('UTC'))
@@ -28,7 +32,7 @@ def fetch(pair):
             allowed=('bbc.com','bbc.co.uk')
             if urlparse(link).scheme != 'https' or not any(host==h or host.endswith('.'+h) for h in allowed): continue
             if not title or not now-timedelta(days=3)<=published<=now+timedelta(minutes=10): continue
-            items.append({'title':title,'url':link,'published':published.isoformat(),'source':'BBC Sport' if name in ('football','nfl') else 'BBC News'})
+            items.append({'title':title,'summary':summary,'url':link,'published':published.isoformat(),'source':'BBC Sport' if name in ('football','nfl') else 'BBC News'})
         if not items: raise ValueError('No recent headlines')
         return name,{'items':items[:12],'status':'ok','checked':now.isoformat()}
     except Exception as error:

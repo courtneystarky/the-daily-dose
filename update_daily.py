@@ -45,6 +45,7 @@ def fetch_schedule(pair):
 def fetch(pair):
     name,url=pair
     try:
+        if name=='aggies': return fetch_aggies()
         raw=subprocess.run(['curl','--fail','--silent','--show-error','--location','--max-time','25',url],check=True,capture_output=True).stdout
         if len(raw)>2000000: raise ValueError('Feed too large')
         root=ET.fromstring(raw)
@@ -76,8 +77,26 @@ def fetch(pair):
         print(name, type(error).__name__)
         return name,{'items':[],'status':'unavailable'}
 
+def fetch_aggies():
+    url='https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=245&limit=20'
+    raw=subprocess.run(['curl','--fail','--silent','--show-error','--location','--max-time','25',url],check=True,capture_output=True).stdout
+    if len(raw)>4000000: raise ValueError('News too large')
+    now=datetime.now(ZoneInfo('UTC')); items=[]
+    for article in json.loads(raw).get('articles',[]):
+        if not any(c.get('type')=='team' and str(c.get('teamId'))=='245' and c.get('sportId')==23 for c in article.get('categories',[])): continue
+        published=datetime.fromisoformat(article['published'].replace('Z','+00:00'))
+        if not now-timedelta(days=3)<=published<=now+timedelta(minutes=10): continue
+        link=article.get('links',{}).get('web',{}).get('href','')
+        host=urlparse(link).hostname or ''
+        if urlparse(link).scheme!='https' or not (host=='espn.com' or host.endswith('.espn.com')): continue
+        summary=' '.join(html.unescape(re.sub(r'<[^>]+>',' ',article.get('description',''))).split())
+        items.append({'title':article['headline'],'summary':' '.join(summary.split()[:65]),'url':link,'published':published.isoformat(),'source':'ESPN'})
+    items.sort(key=lambda x:x['published'],reverse=True)
+    return 'aggies',{'items':items[:12],'status':'ok' if items else 'no_recent_stories','checked':now.isoformat()}
+
 def main():
     now=datetime.now(ZoneInfo('America/New_York'))
+    FEEDS.update({'science':'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml','culture':'https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml'})
     feeds=dict(ThreadPoolExecutor(max_workers=9).map(fetch,FEEDS.items()))
     if not any(v['items'] for v in feeds.values()): raise RuntimeError('All feeds failed; preserving previous deployment')
     schedules=dict(ThreadPoolExecutor(max_workers=4).map(fetch_schedule,SCHEDULES.items()))

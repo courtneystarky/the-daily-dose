@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 import json, re, subprocess, xml.etree.ElementTree as ET
 
-FEEDS = {'world':'https://feeds.bbci.co.uk/news/world/rss.xml','technology':'https://feeds.bbci.co.uk/news/technology/rss.xml','business':'https://feeds.bbci.co.uk/news/business/rss.xml','football':'https://feeds.bbci.co.uk/sport/football/rss.xml','nfl':'https://www.espn.com/espn/rss/nfl/news'}
+FEEDS = {'world':'https://feeds.bbci.co.uk/news/world/rss.xml','technology':'https://feeds.bbci.co.uk/news/technology/rss.xml','business':'https://feeds.bbci.co.uk/news/business/rss.xml','football':'https://feeds.bbci.co.uk/sport/football/rss.xml','nfl':'https://feeds.bbci.co.uk/sport/american-football/rss.xml'}
 
 def fetch(pair):
     name,url=pair
@@ -25,10 +25,10 @@ def fetch(pair):
             except (ValueError,TypeError): continue
             if published.tzinfo is None: published=published.replace(tzinfo=ZoneInfo('UTC'))
             host=urlparse(link).hostname or ''
-            allowed=('bbc.com','bbc.co.uk') if name!='nfl' else ('espn.com',)
+            allowed=('bbc.com','bbc.co.uk')
             if urlparse(link).scheme != 'https' or not any(host==h or host.endswith('.'+h) for h in allowed): continue
             if not title or not now-timedelta(days=3)<=published<=now+timedelta(minutes=10): continue
-            items.append({'title':title,'url':link,'published':published.isoformat(),'source':'ESPN' if name=='nfl' else 'BBC News' if name not in ('football',) else 'BBC Sport'})
+            items.append({'title':title,'url':link,'published':published.isoformat(),'source':'BBC Sport' if name in ('football','nfl') else 'BBC News'})
         if not items: raise ValueError('No recent headlines')
         return name,{'items':items[:12],'status':'ok','checked':now.isoformat()}
     except Exception as error:

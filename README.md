@@ -3,7 +3,7 @@
 A public, free static website with publisher-linked news and rotating daily learning.
 
 ## Daily publishing
-GitHub Actions fetches public BBC News, BBC Sport and ESPN RSS headlines and deploys a fresh content.json plus the website. Runs begin at 5:17 and 5:47 AM America/New_York, with a 6:17 AM backup. Target reading time: 6 AM Eastern, beginning October 10, 2026. GitHub can delay scheduled jobs; this is not a guaranteed delivery service. Manual runs are available in Actions > The Daily Dose morning edition > Run workflow.
+GitHub Actions fetches public BBC News and BBC Sport RSS headlines and deploys a fresh content.json plus the website. Runs begin at 5:17 and 5:47 AM America/New_York, with a 6:17 AM backup. Target reading time: 6 AM Eastern, beginning October 10, 2026. GitHub can delay scheduled jobs; this is not a guaranteed delivery service. Manual runs are available in Actions > The Daily Dose morning edition > Run workflow.
 
 Headlines keep their source wording, attribution, links and publication dates. Entries older than 3 days are omitted. Missing feeds display unavailable; if every feed fails, publication stops and the previous deployment remains. The page shows the actual edition date and a pending notice when it is stale.
 

@@ -46,10 +46,14 @@ const checkEdition=async()=>{try{const response=await fetch('content.json?t='+Da
 setInterval(checkEdition,300000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)checkEdition();});
 const feed=(key,count=3)=>{const entries=data.feeds[key]?.items||[]; if(!entries.length)return '<p>Headlines unavailable this morning. Try the source links below.</p>'; return entries.slice(0,count).map(x=>'<article class="story"><span class="stamp">'+esc(x.source)+'</span><h3><a target="_blank" rel="noopener noreferrer" href="'+esc(x.url)+'">'+esc(x.title)+'</a></h3><p>'+esc(x.summary||'Open the article for the full reporting and context.')+'</p><small>'+esc(new Date(x.published).toLocaleDateString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric'}))+' · Read at source ↗</small></article>').join('');};
-const curiosityKey=(day%2?'culture':'science');
-const lighterKey=(data.feeds[curiosityKey]?.items||[]).length?curiosityKey:(curiosityKey==='science'?'culture':'science');
-$('#world .stories').innerHTML=feed('world',(data.feeds[lighterKey]?.items||[]).length?2:3);
-if((data.feeds[lighterKey]?.items||[]).length)$('#world .stories').insertAdjacentHTML('beforeend','<div class="curiosity-story"><div class="eyebrow">A LITTLE CURIOSITY · '+(lighterKey==='science'?'SCIENCE & NATURE':'ARTS & CULTURE')+'</div>'+feed(lighterKey,1)+'</div>');
+const mainUrls=new Set((data.feeds.world?.items||[]).slice(0,2).map(x=>x.url));
+const curiosityItems=['culture','science'].flatMap(key=>(data.feeds[key]?.items||[]).map(x=>({...x,category:key}))).filter(x=>!mainUrls.has(x.url)&&!/hurricane|storm|life-threatening|dies|death|deadly|rape|shoot|war|stolen|heart attack|fears|illegal|backlash|killed/i.test(x.title));
+curiosityItems.sort((a,b)=>Number(/joy|dream|music|song|art|film|book|nature|animal/i.test(b.title))-Number(/joy|dream|music|song|art|film|book|nature|animal/i.test(a.title)));
+const uniqueCuriosity=curiosityItems.filter((x,i,all)=>all.findIndex(y=>y.url===x.url||y.title===x.title)===i);
+const curiosity=uniqueCuriosity.length?uniqueCuriosity[day%Math.min(3,uniqueCuriosity.length)]:null;
+data.feeds.curiosity={items:curiosity?[curiosity]:[]};
+$('#world .stories').innerHTML=feed('world',curiosity?2:3);
+if(curiosity)$('#world .stories').insertAdjacentHTML('beforeend','<div class="curiosity-story"><div class="eyebrow">A LITTLE CURIOSITY · '+(curiosity.category==='science'?'SCIENCE & NATURE':'ARTS & CULTURE')+'</div>'+feed('curiosity',1)+'</div>');
 $('#world .eyebrow-chip').textContent='FROM BBC NEWS';
 $('#world').insertAdjacentHTML('beforeend','<p class="muted">Headlines from <a href="https://www.bbc.com/news">BBC News</a>. Follow the links for reporting and context.</p>');
 const teamCards=[['spurs','TOTTENHAM HOTSPUR','COME ON YOU SPURS ⚽','https://www.tottenhamhotspur.com/news/','https://www.tottenhamhotspur.com/fixtures/men/'],['aggies','TEXAS A&M AGGIES','GIG ’EM · FOOTBALL','https://12thman.com/sports/football','https://12thman.com/sports/football/schedule'],['bills','BUFFALO BILLS','JOSH ALLEN WATCH · #17','https://www.buffalobills.com/news/','https://www.buffalobills.com/schedule/'],['bucs','TAMPA BAY BUCCANEERS','RAISE THE FLAGS 🏴‍☠️','https://www.buccaneers.com/news/','https://www.buccaneers.com/schedule/']];

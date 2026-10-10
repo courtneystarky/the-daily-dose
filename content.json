@@ -1,14 +1,56 @@
 {
   "edition": "2026-10-09",
-  "updated": "2026-10-09T22:01:01.813533-04:00",
+  "updated": "2026-10-09T22:34:22.160980-04:00",
   "feeds": {
     "world": {
       "items": [
+        {
+          "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+          "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T01:58:56+00:00",
+          "source": "BBC News"
+        },
         {
           "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
           "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
           "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
           "published": "2026-10-10T00:45:51+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "US immigration officials defend ICE agents who shot man in same car as child",
+          "summary": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
+          "url": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T00:13:12+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+          "summary": "Fresh details reveal how the 40-year-old businessman flew and crossed regional borders while seriously ill.",
+          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T00:00:08+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
+          "summary": "Students taking to the streets in France have become a focal point in the country's increasingly polarised politics.",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T23:24:33+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+          "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T23:02:07+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Commentator Katie Zacharia picked as new White House press secretary",
+          "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:41:21+00:00",
           "source": "BBC News"
         },
         {
@@ -19,17 +61,10 @@
           "source": "BBC News"
         },
         {
-          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-          "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T18:40:10+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
-          "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T23:02:07+00:00",
+          "title": "Three men found guilty of murdering two Australian surfer brothers and US friend",
+          "summary": "The bodies of Jake and Callum Robinson and their friend Carter Rhoad were found at the bottom of a well.",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:55:51+00:00",
           "source": "BBC News"
         },
         {
@@ -47,53 +82,25 @@
           "source": "BBC News"
         },
         {
-          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
-          "summary": "Pillay is recognised for her \"efforts to promote peace and international law\", the Norwegian Nobel Committee says.",
-          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T17:37:10+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Man named Hitler Mussolini elected mayor in Peru",
-          "summary": "The left-wing candidate won a narrow victory in a remote district in the Peruvian Andes, exit polls show.",
-          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T16:32:22+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Three men found guilty of murdering two Australian surfer brothers and US friend",
-          "summary": "The bodies of Jake and Callum Robinson and their friend Carter Rhoad were found at the bottom of a well.",
-          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T21:55:51+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
-          "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
-          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T17:14:44+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
-          "summary": "Truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes.",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T15:24:43+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Commentator Katie Zacharia picked as new White House press secretary",
-          "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
-          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T22:41:21+00:00",
+          "title": "Thai Queen makes first solo flight in fighter jet",
+          "summary": "Thailand’s Queen Suthida made her first solo flight in a fighter jet, according to the Thai Royal Household.",
+          "url": "https://www.bbc.co.uk/news/videos/cqm263x40y37o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T19:48:26+00:00",
           "source": "BBC News"
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:01:01.931597+00:00"
+      "checked": "2026-10-10T02:34:22.458673+00:00"
     },
     "technology": {
       "items": [
+        {
+          "title": "Tech Now",
+          "summary": "Shiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage.",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m0032yng?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T01:00:00+00:00",
+          "source": "BBC News"
+        },
         {
           "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
           "summary": "The camera-maker says it is now re-evaluating the rules and procedures of its Small World in Motion contest.",
@@ -170,17 +177,10 @@
           "url": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
           "published": "2026-10-07T20:34:17+00:00",
           "source": "BBC News"
-        },
-        {
-          "title": "Rainmakers: The drones used to seed clouds",
-          "summary": "Cloud seeding is gaining attention as countries look to boost rainfall - will drones help?",
-          "url": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-07T07:09:32+00:00",
-          "source": "BBC News"
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:01:01.927329+00:00"
+      "checked": "2026-10-10T02:34:22.280702+00:00"
     },
     "business": {
       "items": [
@@ -192,10 +192,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-          "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T22:30:22+00:00",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-10T00:45:51+00:00",
           "source": "BBC News"
         },
         {
@@ -203,6 +203,27 @@
           "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
           "url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
           "published": "2026-10-09T23:01:14+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:30:22+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
+          "summary": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
+          "url": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T19:32:50+00:00",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
+          "summary": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
+          "url": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T19:32:50+00:00",
           "source": "BBC News"
         },
         {
@@ -220,13 +241,6 @@
           "source": "BBC News"
         },
         {
-          "title": "I've been with my boyfriend for two years and don't know his salary",
-          "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
-          "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T09:37:38+00:00",
-          "source": "BBC News"
-        },
-        {
           "title": "Anthropic bans users from being 'cruel' to its AI systems",
           "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
           "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
@@ -234,51 +248,37 @@
           "source": "BBC News"
         },
         {
-          "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
-          "summary": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
-          "url": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T19:32:50+00:00",
+          "title": "Why are there so many sports subscriptions?",
+          "summary": "Pete Oliver of DAZN explains why the is a growing number of sports subscriptions and why they are getting more expensive.",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cj20vkpd61kqo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T10:07:13+00:00",
           "source": "BBC News"
         },
         {
-          "title": "'Add me on WhatsApp' scam calls to be investigated",
-          "summary": "The UK's data watchdog is investigating a spike in complaints about \"robo calls\" that appear to lead to a recruitment scam.",
-          "url": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-08T23:05:09+00:00",
+          "title": "I've been with my boyfriend for two years and don't know his salary",
+          "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
+          "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T09:37:38+00:00",
           "source": "BBC News"
         },
         {
-          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
-          "summary": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
-          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T09:30:49+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "White House blocks Microsoft from foreign worker hiring programme",
-          "summary": "An international visa programme has for years allowed US tech companies to hire highly skilled workers from abroad.",
-          "url": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-08T21:37:35+00:00",
-          "source": "BBC News"
-        },
-        {
-          "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
-          "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
-          "url": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-08T23:14:02+00:00",
+          "title": "I've been with my boyfriend for two years and don't know his salary",
+          "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
+          "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T09:37:38+00:00",
           "source": "BBC News"
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:01:01.947912+00:00"
+      "checked": "2026-10-10T02:34:22.294598+00:00"
     },
     "football": {
       "items": [
         {
-          "title": "Greek takeaways: What did we learn from Lionesses' win?",
-          "summary": "England come away from Greece with a valuable first-leg lead in their Women's World Cup qualifying play-off - but who impressed in the 3-1 victory?",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T21:15:24+00:00",
+          "title": "Man City whistleblower to remain in witness protection",
+          "summary": "The computer hacker who released documents which helped trigger the Premier League investigation into Manchester City will remain under witness protection after authorities in Portugal suspend the decision to end it.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq4g1xerk398o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T22:59:32+00:00",
           "source": "BBC Sport"
         },
         {
@@ -289,38 +289,10 @@
           "source": "BBC Sport"
         },
         {
-          "title": "Man City whistleblower to remain in witness protection",
-          "summary": "The computer hacker who released documents which helped trigger the Premier League investigation into Manchester City will remain under witness protection after authorities in Portugal suspend the decision to end it.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cq4g1xerk398o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T22:59:32+00:00",
-          "source": "BBC Sport"
-        },
-        {
-          "title": "I've got my own questions on Man City case - Carrick",
-          "summary": "Manchester United boss Michael Carrick says he was personally affected by the Manchester City case which has seen the club found guilty of breaching Premier League financial rules and still has questions about the matter.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynv45lymdo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T14:30:38+00:00",
-          "source": "BBC Sport"
-        },
-        {
-          "title": "Will anyone stop re-election of Infantino as Fifa president?",
-          "summary": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T16:28:23+00:00",
-          "source": "BBC Sport"
-        },
-        {
-          "title": "Man City titles 'absolutely not' tainted - Maresca",
-          "summary": "Manchester City manager Enzo Maresca says the club's titles are \"absolutely not\" tainted after they were found guilty of the majority of the 115 charges brought against them by the Premier League.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmzxjdvv784xo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T14:08:55+00:00",
-          "source": "BBC Sport"
-        },
-        {
-          "title": "Everton up for sale again - so what next as owners TFG look for a way out?",
-          "summary": "Everton are up for sale again. Chief football writer Phil McNulty looks at what happens next as owners The Friedkin Group look for a way out.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3y0e8n9q4e0o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T15:38:59+00:00",
+          "title": "NI World Cup hopes gone from 'improbable to impossible'",
+          "summary": "Michael McArdle admits Northern Ireland's chances of beating Portugal in a Women's World Cup play-off have \"gone from improbable to impossible\" after a 4-0 first leg defeat.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6gqw03lxxnno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:24:28+00:00",
           "source": "BBC Sport"
         },
         {
@@ -331,36 +303,64 @@
           "source": "BBC Sport"
         },
         {
-          "title": "What reception awaits Man City at Anfield?",
-          "summary": "Bus welcomes, banners and flags expected as Man City head to Liverpool on Sunday for their first game since they were found guilty of breaching Premier League rules.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cjkgey07lq15o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T14:02:46+00:00",
+          "title": "Greek takeaways: What did we learn from Lionesses' win?",
+          "summary": "England come away from Greece with a valuable first-leg lead in their Women's World Cup qualifying play-off - but who impressed in the 3-1 victory?",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T21:15:24+00:00",
           "source": "BBC Sport"
         },
         {
-          "title": "Is £70m Baleba ready for his Man Utd exam?",
-          "summary": "Manchester United's £70m summer signing Carlos Baleba is expected to make his debut against Tottenham Hotspur at Old Trafford",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ck054p2lyeplo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T07:57:23+00:00",
+          "title": "Highlights: Albania 0-1 Wales",
+          "summary": "Watch the best of the action as Wales beat Albania in Shkoder",
+          "url": "https://www.bbc.co.uk/sport/football/videos/crlyk7w4zp5xo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T18:20:41+00:00",
           "source": "BBC Sport"
         },
         {
-          "title": "Sutton's predictions v Starsailor frontman James Walsh",
-          "summary": "BBC Sport football expert Chris Sutton takes on Starsailor frontman James Walsh, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5zjx92v1mero?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-08T20:46:40+00:00",
+          "title": "Will anyone stop re-election of Infantino as Fifa president?",
+          "summary": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:28:23+00:00",
           "source": "BBC Sport"
         },
         {
-          "title": "NI World Cup hopes gone from 'improbable to impossible'",
-          "summary": "Michael McArdle admits Northern Ireland's chances of beating Portugal in a Women's World Cup play-off have \"gone from improbable to impossible\" after a 4-0 first leg defeat.",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c6gqw03lxxnno?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-09T21:24:28+00:00",
+          "title": "Decision to stay at Celtic did not take long - O'Neill",
+          "summary": "Martin O'Neill suggests he was never close to leaving Celtic after a three-game losing streak, with the veteran manager stressing his \"great enthusiasm\" for the role.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm89z77egpw5o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:04:03+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Decision to stay at Celtic did not take long - O'Neill",
+          "summary": "Martin O'Neill suggests he was never close to leaving Celtic after a three-game losing streak, with the veteran manager stressing his \"great enthusiasm\" for the role.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm89z77egpw5o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T16:04:03+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Afcon move to every four years under review by Caf",
+          "summary": "The Africa Cup of Nations may continue to be held every two years, with discussions under way to reverse its proposed switch to a four-year cycle.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cv0ldzz7yy3no?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:57:49+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Football Daily",
+          "summary": "Conor McNamara joins Ian Dennis and John Murray ahead of a big Premier League weekend.",
+          "url": "https://www.bbc.co.uk/sounds/play/m0032mc0?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:51:00+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Everton up for sale again - so what next as owners TFG look for a way out?",
+          "summary": "Everton are up for sale again. Chief football writer Phil McNulty looks at what happens next as owners The Friedkin Group look for a way out.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3y0e8n9q4e0o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T15:38:59+00:00",
           "source": "BBC Sport"
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:01:02.161607+00:00"
+      "checked": "2026-10-10T02:34:22.488051+00:00"
     },
     "nfl": {
       "items": [
@@ -379,22 +379,185 @@
           "source": "BBC Sport"
         },
         {
-          "title": "Why you could represent GB in one of newest Olympic sports",
-          "summary": "The Los Angeles Olympics are just two years away but you could get there with a new sport as Great Britain's flag football team is on the lookout for new talent.",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/crq8nv3zep9yo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-07T08:35:37+00:00",
-          "source": "BBC Sport"
-        },
-        {
           "title": "Irving leads Buccaneers to shock win over Cowboys",
           "summary": "Bucky Irving scores two touchdowns as the Tampa Bay Buccaneers get their first win of the season with a 24-16 victory at the Dallas Cowboys.",
           "url": "https://www.bbc.co.uk/sport/american-football/videos/ckqxn9j153gvo?at_medium=RSS&at_campaign=rss",
           "published": "2026-10-09T10:01:05+00:00",
           "source": "BBC Sport"
+        },
+        {
+          "title": "Why you could represent GB in one of newest Olympic sports",
+          "summary": "The Los Angeles Olympics are just two years away but you could get there with a new sport as Great Britain's flag football team is on the lookout for new talent.",
+          "url": "https://www.bbc.co.uk/sport/olympics/articles/crq8nv3zep9yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-07T08:35:37+00:00",
+          "source": "BBC Sport"
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:01:02.147999+00:00"
+      "checked": "2026-10-10T02:34:22.509618+00:00"
+    },
+    "spurs": {
+      "items": [
+        {
+          "title": "Yet to gel or same old struggles? - De Zerbi's Premier League dilemma",
+          "summary": "After a three-week international break, Tottenham Hotspur return to Premier League action having won none of their opening five matches and sitting bottom of the table. BBC Sport looks back at their poor start to the season and asks if another relegation battle is looming?",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cwp8g355me6no?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-09T07:41:09+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Spurs' Simons enrols at iconic university Harvard",
+          "summary": "Tottenham's Xavi Simons enrols at prestigious American university Harvard as he continues his recovery from a long-term injury.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg9388e7wo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-08T22:21:25+00:00",
+          "source": "BBC Sport"
+        },
+        {
+          "title": "Ex-Spurs player Vega set to run for Fifa president",
+          "summary": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential election - becoming the first person to confirm they want to challenge Gianni Infantino.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c607397pjv37o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-07T19:24:19+00:00",
+          "source": "BBC Sport"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T02:34:22.454271+00:00"
+    },
+    "bills": {
+      "items": [
+        {
+          "title": "Buffalo Bills at Los Angeles Rams | Where to watch, stream and listen | MNF Week 5",
+          "summary": "TV Channel, Streaming and Radio for Bills at Rams",
+          "url": "https://www.buffalobills.com/news/buffalo-bills-at-los-angeles-rams-where-to-watch-stream-and-listen-mnf-week-5",
+          "published": "2026-10-09T20:54:18+00:00",
+          "source": "Buffalo Bills"
+        },
+        {
+          "title": "'Going to have our hands full' | How the Bills are preparing for a dynamic L.A. Rams team",
+          "summary": "Preparing for the Rams' dynamic offense and defensive units, and Thursday's injury report",
+          "url": "https://www.buffalobills.com/news/going-to-have-our-hands-full-how-the-bills-are-preparing-for-a-dynamic-l-a-rams-team",
+          "published": "2026-10-09T00:42:41+00:00",
+          "source": "Buffalo Bills"
+        },
+        {
+          "title": "Top Bills game storylines vs. Rams | Week 5",
+          "summary": "Buffalo Bills insider Chris Brown breaks down the top four storylines to know going into this week's Bills vs. Rams matchup on Monday Night Football.",
+          "url": "https://www.buffalobills.com/news/top-storylines-for-bills-vs-rams-week-5",
+          "published": "2026-10-08T19:13:00+00:00",
+          "source": "Buffalo Bills"
+        },
+        {
+          "title": "Buffalo Bills Recognize WNYCFO as High School Football Officiating Crew of the Month",
+          "summary": "Each member of this crew has displayed versatility, deep knowledge of the game, and leadership throughout their careers",
+          "url": "https://www.buffalobills.com/news/buffalo-bills-recognize-wnycfo-as-high-school-football-officiating-crew-of-the-month",
+          "published": "2026-10-08T15:55:49+00:00",
+          "source": "Buffalo Bills"
+        },
+        {
+          "title": "Buffalo Bills recognize these WNY high school football coaches | Week 5 2026",
+          "summary": "As part of the program, each winning coach’s program will receive $1,000 from the Buffalo Bills and Visa",
+          "url": "https://www.buffalobills.com/news/buffalo-bills-recognize-these-wny-high-school-football-coaches-week-5-2026",
+          "published": "2026-10-07T13:59:17+00:00",
+          "source": "Buffalo Bills"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T02:34:22.293291+00:00"
+    },
+    "bucs": {
+      "items": [
+        {
+          "title": "Jalon Daniels' First Win Comes with Big Plays, Heavy Ground Game",
+          "summary": "With 241 rushing yards and two plays of 60-plus yards, the Buccaneers were able to help rookie QB Jalon Daniels get his first NFL win in prime time at Dallas on Thursday night",
+          "url": "https://www.buccaneers.com/news/jalon-daniels-first-win-comes-with-big-plays-heavy-ground-game",
+          "published": "2026-10-09T21:13:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Buccaneers' Next Game: Steelers Come to Tampa in Week Six",
+          "summary": "Aaron Rodgers and the Pittsburgh Steelers will visit Raymond James Stadium in Week Six on Sunday, October 18, as the Buccaneers try to string together consecutive victories",
+          "url": "https://www.buccaneers.com/news/next-game-tampa-bay-buccaneers-vs-pittsburgh-steelers-nfl-season-week-6-2026",
+          "published": "2026-10-09T21:05:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Takeaways from Buccaneers-Cowboys | Week 5",
+          "summary": "Top observations from the 24-16 victory over the Cowboys at AT&T Stadium in Week Five",
+          "url": "https://www.buccaneers.com/news/takeaways-from-buccaneers-cowboys-week-5-2026",
+          "published": "2026-10-09T18:49:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Bucky Irving's Theatrics Spur Robust Rushing Attack Against Cowboys",
+          "summary": "Against the Dallas Cowboys in Week Five in prime-time, running back Bucky Irving spearheaded Tampa Bay’s rushing attack, guiding the team to its first win of the 2026 season",
+          "url": "https://www.buccaneers.com/news/bucky-irving-theatrics-spur-robust-rushing-attack-against-cowboys-week-5-tnf",
+          "published": "2026-10-09T18:48:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Bucs Explode for Season-Changing Win over Cowboys",
+          "summary": "With explosive plays in both the run and pass game plus three takeaways, the Buccaneers shocked Dallas on Thursday night with a 24-16 win that could be the start of a season turnaround",
+          "url": "https://www.buccaneers.com/news/bucs-explode-for-season-changing-win-over-cowboys",
+          "published": "2026-10-09T05:01:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Rapid Reaction: Buccaneers 24, Cowboys 16",
+          "summary": "The Tampa Bay Buccaneers defeated the Dallas Cowboys 24-16 at AT&T Stadium on Thursday Night Football",
+          "url": "https://www.buccaneers.com/news/bucs-win-dallas-cowboys-week-5-2026-score-24-16",
+          "published": "2026-10-09T04:01:34+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "5 Notes Against the Cowboys | Week 5",
+          "summary": "In the Buccaneers’ 24-16 win to the Cowboys in Week Five, five notes stood out for the away team.",
+          "url": "https://www.buccaneers.com/news/bucs-cowboys-5-notes-nfl-week-5-2026",
+          "published": "2026-10-09T03:45:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Cowboys 10, Buccaneers 24 | Third Quarter Updates",
+          "summary": "Keep informed with our daily updates: News, notes and more throughout the month of October",
+          "url": "https://www.buccaneers.com/news/october-2026-updates",
+          "published": "2026-10-09T00:42:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Bucs vs. Cowboys TNF Game Blog | Week 5 2026",
+          "summary": "Get all the in-game updates, highlights, stats and analysis for the Tampa Bay Buccaneers' Week 5 game vs. the Dallas Cowboys on Thursday Night Football",
+          "url": "https://www.buccaneers.com/news/bucs-vs-cowboys-tnf-game-blog-week-5-2026",
+          "published": "2026-10-09T00:17:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "How to Watch: Buccaneers at Cowboys on Thursday Night Football | Week 5 2026",
+          "summary": "Watch the Tampa Bay Buccaneers at the Dallas Cowboys in Week Five of the 2026 NFL season on Thursday Night Football. Get kickoff time, TV channel, live stream, and radio details here.",
+          "url": "https://www.buccaneers.com/news/how-to-watch-buccaneers-at-cowboys-week-5-2026",
+          "published": "2026-10-09T00:14:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "Bucs-Cowboys Inactives | Rueben Bain Jr., Ko Kieft Return to Action",
+          "summary": "The Buccaneers will be without QB Baker Mayfield for a second straight game and have a new issue on defense with Antoine Winfield Jr. ruled out, but rookie OLB Rueben Bain Jr. and TE Ko Kieft are back after missing time",
+          "url": "https://www.buccaneers.com/news/bucs-cowboys-inactives-rueben-bain-jr-ko-kieft-return-action",
+          "published": "2026-10-08T22:45:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        },
+        {
+          "title": "S J.J. Roberts and QB Easton Stick Elevated for TNF Game in Dallas",
+          "summary": "Safety J.J. Roberts is in line to make his NFL regular season debut on Thursday night while Easton Stick will once again back up rookie quarterback Jalon Daniels in the absence of Baker Mayfield",
+          "url": "https://www.buccaneers.com/news/s-j-j-roberts-and-qb-easton-stick-elevated-for-tnf-game-in-dallas",
+          "published": "2026-10-08T20:00:00+00:00",
+          "source": "Tampa Bay Buccaneers"
+        }
+      ],
+      "status": "ok",
+      "checked": "2026-10-10T02:34:22.336495+00:00"
+    },
+    "aggies": {
+      "items": [],
+      "status": "no_recent_stories",
+      "checked": "2026-10-10T02:34:22.295244+00:00"
     }
   }
 }

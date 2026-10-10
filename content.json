@@ -1,6 +1,6 @@
 {
   "edition": "2026-10-09",
-  "updated": "2026-10-09T22:34:22.160980-04:00",
+  "updated": "2026-10-09T22:45:15.828037-04:00",
   "feeds": {
     "world": {
       "items": [
@@ -90,7 +90,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.458673+00:00"
+      "checked": "2026-10-10T02:45:15.941102+00:00"
     },
     "technology": {
       "items": [
@@ -180,7 +180,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.280702+00:00"
+      "checked": "2026-10-10T02:45:15.921354+00:00"
     },
     "business": {
       "items": [
@@ -270,7 +270,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.294598+00:00"
+      "checked": "2026-10-10T02:45:15.987922+00:00"
     },
     "football": {
       "items": [
@@ -360,7 +360,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.488051+00:00"
+      "checked": "2026-10-10T02:45:16.094048+00:00"
     },
     "nfl": {
       "items": [
@@ -394,7 +394,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.509618+00:00"
+      "checked": "2026-10-10T02:45:16.119891+00:00"
     },
     "spurs": {
       "items": [
@@ -421,7 +421,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.454271+00:00"
+      "checked": "2026-10-10T02:45:16.075869+00:00"
     },
     "bills": {
       "items": [
@@ -462,7 +462,7 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.293291+00:00"
+      "checked": "2026-10-10T02:45:15.950505+00:00"
     },
     "bucs": {
       "items": [
@@ -552,12 +552,1508 @@
         }
       ],
       "status": "ok",
-      "checked": "2026-10-10T02:34:22.336495+00:00"
+      "checked": "2026-10-10T02:45:15.990337+00:00"
     },
     "aggies": {
       "items": [],
       "status": "no_recent_stories",
-      "checked": "2026-10-10T02:34:22.295244+00:00"
+      "checked": "2026-10-10T02:45:15.954584+00:00"
+    }
+  },
+  "schedules": {
+    "spurs": {
+      "status": "ok",
+      "items": [
+        {
+          "id": "401886545",
+          "date": "2026-07-22T16:00:00+00:00",
+          "day": "2026-07-22",
+          "opponent": "Milton Keynes Dons",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "1",
+          "opponentScore": "0",
+          "venue": "Tottenham Hotspur Training Centre",
+          "tv": []
+        },
+        {
+          "id": "401867393",
+          "date": "2026-07-26T03:00:00+00:00",
+          "day": "2026-07-25",
+          "opponent": "Auckland FC",
+          "home": false,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "2",
+          "opponentScore": "0",
+          "venue": "Eden Park",
+          "tv": []
+        },
+        {
+          "id": "401886557",
+          "date": "2026-08-08T14:00:00+00:00",
+          "day": "2026-08-08",
+          "opponent": "Getafe",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "1",
+          "opponentScore": "1",
+          "venue": "",
+          "tv": []
+        },
+        {
+          "id": "401886534",
+          "date": "2026-08-15T14:00:00+00:00",
+          "day": "2026-08-15",
+          "opponent": "TSG Hoffenheim",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "3",
+          "opponentScore": "0",
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401886558",
+          "date": "2026-08-16T11:00:00+00:00",
+          "day": "2026-08-16",
+          "opponent": "TSG Hoffenheim",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "2",
+          "opponentScore": "2",
+          "venue": "Tottenham Hotspur Training Centre",
+          "tv": []
+        },
+        {
+          "id": "401879321",
+          "date": "2026-08-22T16:30:00+00:00",
+          "day": "2026-08-22",
+          "opponent": "Brentford",
+          "home": false,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "0",
+          "opponentScore": "3",
+          "venue": "Gtech Community Stadium",
+          "tv": [
+            "NBC",
+            "Peacock"
+          ]
+        },
+        {
+          "id": "401908140",
+          "date": "2026-08-26T18:45:00+00:00",
+          "day": "2026-08-26",
+          "opponent": "Charlton Athletic",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "5",
+          "opponentScore": "1",
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": [
+            "Paramount+"
+          ]
+        },
+        {
+          "id": "401879312",
+          "date": "2026-08-29T16:30:00+00:00",
+          "day": "2026-08-29",
+          "opponent": "Newcastle United",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "0",
+          "opponentScore": "2",
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": [
+            "NBC",
+            "Universo"
+          ]
+        },
+        {
+          "id": "401878780",
+          "date": "2026-09-05T14:00:00+00:00",
+          "day": "2026-09-05",
+          "opponent": "Nottingham Forest",
+          "home": false,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "0",
+          "opponentScore": "0",
+          "venue": "The City Ground",
+          "tv": [
+            "NBCSN",
+            "Peacock"
+          ]
+        },
+        {
+          "id": "401879277",
+          "date": "2026-09-12T16:30:00+00:00",
+          "day": "2026-09-12",
+          "opponent": "Everton",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "0",
+          "opponentScore": "0",
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": [
+            "NBC"
+          ]
+        },
+        {
+          "id": "401914257",
+          "date": "2026-09-15T19:00:00+00:00",
+          "day": "2026-09-15",
+          "opponent": "Liverpool",
+          "home": false,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "1",
+          "opponentScore": "3",
+          "venue": "Anfield",
+          "tv": [
+            "Paramount+"
+          ]
+        },
+        {
+          "id": "401879269",
+          "date": "2026-09-19T11:30:00+00:00",
+          "day": "2026-09-19",
+          "opponent": "Aston Villa",
+          "home": true,
+          "status": "post",
+          "detail": "FT",
+          "completed": true,
+          "timeTBD": false,
+          "score": "2",
+          "opponentScore": "3",
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": [
+            "USA Net",
+            "Universo"
+          ]
+        },
+        {
+          "id": "401878773",
+          "date": "2026-10-10T16:30:00+00:00",
+          "day": "2026-10-10",
+          "opponent": "Manchester United",
+          "home": false,
+          "status": "pre",
+          "detail": "10/10 - 12:30 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Old Trafford",
+          "tv": [
+            "NBC",
+            "Tele"
+          ]
+        },
+        {
+          "id": "401879257",
+          "date": "2026-10-19T19:00:00+00:00",
+          "day": "2026-10-19",
+          "opponent": "Coventry City",
+          "home": true,
+          "status": "pre",
+          "detail": "10/19 - 3:00 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401878767",
+          "date": "2026-10-24T16:30:00+00:00",
+          "day": "2026-10-24",
+          "opponent": "Chelsea",
+          "home": false,
+          "status": "pre",
+          "detail": "10/24 - 12:30 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Stamford Bridge",
+          "tv": []
+        },
+        {
+          "id": "401878761",
+          "date": "2026-10-31T17:30:00+00:00",
+          "day": "2026-10-31",
+          "opponent": "Crystal Palace",
+          "home": true,
+          "status": "pre",
+          "detail": "10/31 - 1:30 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401878758",
+          "date": "2026-11-07T12:30:00+00:00",
+          "day": "2026-11-07",
+          "opponent": "Leeds United",
+          "home": false,
+          "status": "pre",
+          "detail": "11/7 - 7:30 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Elland Road",
+          "tv": []
+        },
+        {
+          "id": "401878754",
+          "date": "2026-11-21T15:00:00+00:00",
+          "day": "2026-11-21",
+          "opponent": "Ipswich Town",
+          "home": true,
+          "status": "pre",
+          "detail": "11/21 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879224",
+          "date": "2026-11-29T14:05:00+00:00",
+          "day": "2026-11-29",
+          "opponent": "Sunderland",
+          "home": false,
+          "status": "pre",
+          "detail": "11/29 - 9:05 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Stadium of Light",
+          "tv": []
+        },
+        {
+          "id": "401878749",
+          "date": "2026-12-02T20:00:00+00:00",
+          "day": "2026-12-02",
+          "opponent": "Fulham",
+          "home": true,
+          "status": "pre",
+          "detail": "12/2 - 3:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879209",
+          "date": "2026-12-05T15:00:00+00:00",
+          "day": "2026-12-05",
+          "opponent": "Arsenal",
+          "home": true,
+          "status": "pre",
+          "detail": "12/5 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879205",
+          "date": "2026-12-12T15:00:00+00:00",
+          "day": "2026-12-12",
+          "opponent": "Hull City",
+          "home": false,
+          "status": "pre",
+          "detail": "12/12 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "The MKM Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879200",
+          "date": "2026-12-19T15:00:00+00:00",
+          "day": "2026-12-19",
+          "opponent": "Liverpool",
+          "home": false,
+          "status": "pre",
+          "detail": "12/19 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Anfield",
+          "tv": []
+        },
+        {
+          "id": "401878731",
+          "date": "2026-12-26T15:00:00+00:00",
+          "day": "2026-12-26",
+          "opponent": "AFC Bournemouth",
+          "home": true,
+          "status": "pre",
+          "detail": "12/26 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879186",
+          "date": "2026-12-29T19:30:00+00:00",
+          "day": "2026-12-29",
+          "opponent": "Brighton & Hove Albion",
+          "home": true,
+          "status": "pre",
+          "detail": "12/29 - 2:30 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879180",
+          "date": "2027-01-03T16:30:00+00:00",
+          "day": "2027-01-03",
+          "opponent": "Manchester City",
+          "home": false,
+          "status": "pre",
+          "detail": "1/3 - 11:30 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Etihad Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879173",
+          "date": "2027-01-06T19:30:00+00:00",
+          "day": "2027-01-06",
+          "opponent": "Fulham",
+          "home": false,
+          "status": "pre",
+          "detail": "1/6 - 2:30 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Craven Cottage",
+          "tv": []
+        },
+        {
+          "id": "401879165",
+          "date": "2027-01-16T15:00:00+00:00",
+          "day": "2027-01-16",
+          "opponent": "Leeds United",
+          "home": true,
+          "status": "pre",
+          "detail": "1/16 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879163",
+          "date": "2027-01-23T15:00:00+00:00",
+          "day": "2027-01-23",
+          "opponent": "Crystal Palace",
+          "home": false,
+          "status": "pre",
+          "detail": "1/23 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Selhurst Park",
+          "tv": []
+        },
+        {
+          "id": "401879153",
+          "date": "2027-01-30T15:00:00+00:00",
+          "day": "2027-01-30",
+          "opponent": "Sunderland",
+          "home": true,
+          "status": "pre",
+          "detail": "1/30 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879149",
+          "date": "2027-02-06T15:00:00+00:00",
+          "day": "2027-02-06",
+          "opponent": "Ipswich Town",
+          "home": false,
+          "status": "pre",
+          "detail": "2/6 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Portman Road",
+          "tv": []
+        },
+        {
+          "id": "401879140",
+          "date": "2027-02-10T20:00:00+00:00",
+          "day": "2027-02-10",
+          "opponent": "Manchester City",
+          "home": true,
+          "status": "pre",
+          "detail": "2/10 - 3:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879137",
+          "date": "2027-02-20T15:00:00+00:00",
+          "day": "2027-02-20",
+          "opponent": "Brighton & Hove Albion",
+          "home": false,
+          "status": "pre",
+          "detail": "2/20 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "American Express Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879129",
+          "date": "2027-02-27T15:00:00+00:00",
+          "day": "2027-02-27",
+          "opponent": "Liverpool",
+          "home": true,
+          "status": "pre",
+          "detail": "2/27 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879128",
+          "date": "2027-03-03T20:00:00+00:00",
+          "day": "2027-03-03",
+          "opponent": "AFC Bournemouth",
+          "home": false,
+          "status": "pre",
+          "detail": "3/3 - 3:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Vitality Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879116",
+          "date": "2027-03-13T15:00:00+00:00",
+          "day": "2027-03-13",
+          "opponent": "Nottingham Forest",
+          "home": true,
+          "status": "pre",
+          "detail": "3/13 - 10:00 AM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879112",
+          "date": "2027-03-20T15:00:00+00:00",
+          "day": "2027-03-20",
+          "opponent": "Everton",
+          "home": false,
+          "status": "pre",
+          "detail": "3/20 - 11:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Hill Dickinson Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879099",
+          "date": "2027-04-10T14:00:00+00:00",
+          "day": "2027-04-10",
+          "opponent": "Brentford",
+          "home": true,
+          "status": "pre",
+          "detail": "4/10 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401878682",
+          "date": "2027-04-17T14:00:00+00:00",
+          "day": "2027-04-17",
+          "opponent": "Newcastle United",
+          "home": false,
+          "status": "pre",
+          "detail": "4/17 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "St. James' Park",
+          "tv": []
+        },
+        {
+          "id": "401878677",
+          "date": "2027-04-24T14:00:00+00:00",
+          "day": "2027-04-24",
+          "opponent": "Hull City",
+          "home": true,
+          "status": "pre",
+          "detail": "4/24 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401878676",
+          "date": "2027-05-01T14:00:00+00:00",
+          "day": "2027-05-01",
+          "opponent": "Arsenal",
+          "home": false,
+          "status": "pre",
+          "detail": "5/1 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Emirates Stadium",
+          "tv": []
+        },
+        {
+          "id": "401878666",
+          "date": "2027-05-08T14:00:00+00:00",
+          "day": "2027-05-08",
+          "opponent": "Chelsea",
+          "home": true,
+          "status": "pre",
+          "detail": "5/8 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879077",
+          "date": "2027-05-15T14:00:00+00:00",
+          "day": "2027-05-15",
+          "opponent": "Coventry City",
+          "home": false,
+          "status": "pre",
+          "detail": "5/15 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Coventry Building Society Arena",
+          "tv": []
+        },
+        {
+          "id": "401879065",
+          "date": "2027-05-23T14:00:00+00:00",
+          "day": "2027-05-23",
+          "opponent": "Manchester United",
+          "home": true,
+          "status": "pre",
+          "detail": "5/23 - 10:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Tottenham Hotspur Stadium",
+          "tv": []
+        },
+        {
+          "id": "401879064",
+          "date": "2027-05-30T15:00:00+00:00",
+          "day": "2027-05-30",
+          "opponent": "Aston Villa",
+          "home": false,
+          "status": "pre",
+          "detail": "5/30 - 11:00 AM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Villa Park",
+          "tv": []
+        }
+      ],
+      "source": "ESPN",
+      "checked": "2026-10-10T02:45:16.799069+00:00"
+    },
+    "aggies": {
+      "status": "ok",
+      "items": [
+        {
+          "id": "401856668",
+          "date": "2026-09-05T23:00:00+00:00",
+          "day": "2026-09-05",
+          "opponent": "Missouri State Bears",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "50",
+          "opponentScore": "0",
+          "venue": "Kyle Field",
+          "tv": [
+            "ESPN"
+          ]
+        },
+        {
+          "id": "401856683",
+          "date": "2026-09-12T16:00:00+00:00",
+          "day": "2026-09-12",
+          "opponent": "Arizona State Sun Devils",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "48",
+          "opponentScore": "20",
+          "venue": "Kyle Field",
+          "tv": [
+            "ABC",
+            "ERADM"
+          ]
+        },
+        {
+          "id": "401856694",
+          "date": "2026-09-19T19:40:00+00:00",
+          "day": "2026-09-19",
+          "opponent": "Kentucky Wildcats",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "21",
+          "opponentScore": "31",
+          "venue": "Kyle Field",
+          "tv": [
+            "ESPN"
+          ]
+        },
+        {
+          "id": "401856702",
+          "date": "2026-09-26T23:30:00+00:00",
+          "day": "2026-09-26",
+          "opponent": "LSU Tigers",
+          "home": false,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "6",
+          "opponentScore": "35",
+          "venue": "Tiger Stadium (LA)",
+          "tv": [
+            "ABC",
+            "ERADM"
+          ]
+        },
+        {
+          "id": "401856711",
+          "date": "2026-10-03T23:00:00+00:00",
+          "day": "2026-10-03",
+          "opponent": "Arkansas Razorbacks",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "34",
+          "opponentScore": "7",
+          "venue": "Kyle Field",
+          "tv": [
+            "ESPN2"
+          ]
+        },
+        {
+          "id": "401856716",
+          "date": "2026-10-10T16:00:00+00:00",
+          "day": "2026-10-10",
+          "opponent": "Missouri Tigers",
+          "home": false,
+          "status": "pre",
+          "detail": "10/10 - 12:00 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Memorial Stadium",
+          "tv": [
+            "ABC"
+          ]
+        },
+        {
+          "id": "401856725",
+          "date": "2026-10-17T17:00:00+00:00",
+          "day": "2026-10-17",
+          "opponent": "The Citadel Bulldogs",
+          "home": true,
+          "status": "pre",
+          "detail": "10/17 - 1:00 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Kyle Field",
+          "tv": [
+            "SECN+"
+          ]
+        },
+        {
+          "id": "401856727",
+          "date": "2026-10-24T04:00:00+00:00",
+          "day": "2026-10-24",
+          "opponent": "Alabama Crimson Tide",
+          "home": false,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Bryant-Denny Stadium",
+          "tv": []
+        },
+        {
+          "id": "401856744",
+          "date": "2026-11-07T05:00:00+00:00",
+          "day": "2026-11-07",
+          "opponent": "South Carolina Gamecocks",
+          "home": false,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Williams-Brice Stadium",
+          "tv": []
+        },
+        {
+          "id": "401856888",
+          "date": "2026-11-14T05:00:00+00:00",
+          "day": "2026-11-14",
+          "opponent": "Tennessee Volunteers",
+          "home": true,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Kyle Field",
+          "tv": []
+        },
+        {
+          "id": "401856752",
+          "date": "2026-11-21T05:00:00+00:00",
+          "day": "2026-11-21",
+          "opponent": "Oklahoma Sooners",
+          "home": false,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Memorial Stadium (Norman, OK)",
+          "tv": []
+        },
+        {
+          "id": "401856756",
+          "date": "2026-11-28T00:30:00+00:00",
+          "day": "2026-11-27",
+          "opponent": "Texas Longhorns",
+          "home": true,
+          "status": "pre",
+          "detail": "11/27 - 7:30 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Kyle Field",
+          "tv": [
+            "ABC"
+          ]
+        }
+      ],
+      "source": "ESPN",
+      "checked": "2026-10-10T02:45:16.431869+00:00"
+    },
+    "bills": {
+      "status": "ok",
+      "items": [
+        {
+          "id": "401872660",
+          "date": "2026-09-13T17:00:00+00:00",
+          "day": "2026-09-13",
+          "opponent": "Houston Texans",
+          "home": false,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "36",
+          "opponentScore": "31",
+          "venue": "Reliant Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401872932",
+          "date": "2026-09-18T00:15:00+00:00",
+          "day": "2026-09-17",
+          "opponent": "Detroit Lions",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "41",
+          "opponentScore": "31",
+          "venue": "Highmark Stadium",
+          "tv": [
+            "Prime Video"
+          ]
+        },
+        {
+          "id": "401872953",
+          "date": "2026-09-27T17:00:00+00:00",
+          "day": "2026-09-27",
+          "opponent": "Los Angeles Chargers",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "24",
+          "opponentScore": "16",
+          "venue": "Highmark Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401872971",
+          "date": "2026-10-04T17:00:00+00:00",
+          "day": "2026-10-04",
+          "opponent": "New England Patriots",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "26",
+          "opponentScore": "29",
+          "venue": "Highmark Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401872994",
+          "date": "2026-10-13T00:15:00+00:00",
+          "day": "2026-10-12",
+          "opponent": "Los Angeles Rams",
+          "home": false,
+          "status": "pre",
+          "detail": "10/12 - 8:15 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "SoFi Stadium",
+          "tv": [
+            "ESPN",
+            "ABC"
+          ]
+        },
+        {
+          "id": "401873005",
+          "date": "2026-10-18T20:25:00+00:00",
+          "day": "2026-10-18",
+          "opponent": "Las Vegas Raiders",
+          "home": false,
+          "status": "pre",
+          "detail": "10/18 - 4:25 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Allegiant Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873026",
+          "date": "2026-11-01T18:00:00+00:00",
+          "day": "2026-11-01",
+          "opponent": "Baltimore Ravens",
+          "home": true,
+          "status": "pre",
+          "detail": "11/1 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Highmark Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873051",
+          "date": "2026-11-10T01:15:00+00:00",
+          "day": "2026-11-09",
+          "opponent": "Minnesota Vikings",
+          "home": false,
+          "status": "pre",
+          "detail": "11/9 - 8:15 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "U.S. Bank Stadium",
+          "tv": [
+            "ESPN",
+            "ABC"
+          ]
+        },
+        {
+          "id": "401873054",
+          "date": "2026-11-15T18:00:00+00:00",
+          "day": "2026-11-15",
+          "opponent": "New York Jets",
+          "home": false,
+          "status": "pre",
+          "detail": "11/15 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "MetLife Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873070",
+          "date": "2026-11-22T18:00:00+00:00",
+          "day": "2026-11-22",
+          "opponent": "Miami Dolphins",
+          "home": true,
+          "status": "pre",
+          "detail": "11/22 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Highmark Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401873082",
+          "date": "2026-11-27T01:20:00+00:00",
+          "day": "2026-11-26",
+          "opponent": "Kansas City Chiefs",
+          "home": true,
+          "status": "pre",
+          "detail": "11/26 - 8:20 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Highmark Stadium",
+          "tv": [
+            "NBC"
+          ]
+        },
+        {
+          "id": "401873105",
+          "date": "2026-12-06T21:25:00+00:00",
+          "day": "2026-12-06",
+          "opponent": "New England Patriots",
+          "home": false,
+          "status": "pre",
+          "detail": "12/6 - 4:25 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Gillette Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873122",
+          "date": "2026-12-14T01:20:00+00:00",
+          "day": "2026-12-13",
+          "opponent": "Green Bay Packers",
+          "home": false,
+          "status": "pre",
+          "detail": "12/13 - 8:20 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Lambeau Field",
+          "tv": [
+            "NBC"
+          ]
+        },
+        {
+          "id": "401873126",
+          "date": "2026-12-20T01:20:00+00:00",
+          "day": "2026-12-19",
+          "opponent": "Chicago Bears",
+          "home": true,
+          "status": "pre",
+          "detail": "12/19 - 8:20 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Highmark Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873142",
+          "date": "2026-12-25T21:30:00+00:00",
+          "day": "2026-12-25",
+          "opponent": "Denver Broncos",
+          "home": false,
+          "status": "pre",
+          "detail": "12/25 - 4:30 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Empower Field at Mile High",
+          "tv": [
+            "Netflix"
+          ]
+        },
+        {
+          "id": "401873161",
+          "date": "2027-01-03T18:00:00+00:00",
+          "day": "2027-01-03",
+          "opponent": "Miami Dolphins",
+          "home": false,
+          "status": "pre",
+          "detail": "1/3 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Hard Rock Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873181",
+          "date": "2027-01-10T05:00:00+00:00",
+          "day": "2027-01-10",
+          "opponent": "New York Jets",
+          "home": true,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Highmark Stadium",
+          "tv": []
+        }
+      ],
+      "source": "ESPN",
+      "checked": "2026-10-10T02:45:16.392881+00:00"
+    },
+    "bucs": {
+      "status": "ok",
+      "items": [
+        {
+          "id": "401872925",
+          "date": "2026-09-13T17:00:00+00:00",
+          "day": "2026-09-13",
+          "opponent": "Cincinnati Bengals",
+          "home": false,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "27",
+          "opponentScore": "33",
+          "venue": "Paycor Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401872935",
+          "date": "2026-09-20T17:00:00+00:00",
+          "day": "2026-09-20",
+          "opponent": "Cleveland Browns",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "19",
+          "opponentScore": "23",
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401872959",
+          "date": "2026-09-27T20:05:00+00:00",
+          "day": "2026-09-27",
+          "opponent": "Minnesota Vikings",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "16",
+          "opponentScore": "23",
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401872968",
+          "date": "2026-10-04T17:00:00+00:00",
+          "day": "2026-10-04",
+          "opponent": "Green Bay Packers",
+          "home": true,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "14",
+          "opponentScore": "17",
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401872980",
+          "date": "2026-10-09T00:15:00+00:00",
+          "day": "2026-10-08",
+          "opponent": "Dallas Cowboys",
+          "home": false,
+          "status": "post",
+          "detail": "Final",
+          "completed": true,
+          "timeTBD": false,
+          "score": "24",
+          "opponentScore": "16",
+          "venue": "AT&T Stadium",
+          "tv": [
+            "Prime Video"
+          ]
+        },
+        {
+          "id": "401873002",
+          "date": "2026-10-18T17:00:00+00:00",
+          "day": "2026-10-18",
+          "opponent": "Pittsburgh Steelers",
+          "home": true,
+          "status": "pre",
+          "detail": "10/18 - 1:00 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873018",
+          "date": "2026-10-25T17:00:00+00:00",
+          "day": "2026-10-25",
+          "opponent": "Carolina Panthers",
+          "home": false,
+          "status": "pre",
+          "detail": "10/25 - 1:00 PM EDT",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Bank of America Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401873025",
+          "date": "2026-11-01T18:00:00+00:00",
+          "day": "2026-11-01",
+          "opponent": "Atlanta Falcons",
+          "home": true,
+          "status": "pre",
+          "detail": "11/1 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401873050",
+          "date": "2026-11-09T01:20:00+00:00",
+          "day": "2026-11-08",
+          "opponent": "Chicago Bears",
+          "home": false,
+          "status": "pre",
+          "detail": "11/8 - 8:20 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Soldier Field",
+          "tv": [
+            "NBC"
+          ]
+        },
+        {
+          "id": "401873072",
+          "date": "2026-11-22T18:00:00+00:00",
+          "day": "2026-11-22",
+          "opponent": "Detroit Lions",
+          "home": false,
+          "status": "pre",
+          "detail": "11/22 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Ford Field",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873094",
+          "date": "2026-12-01T01:15:00+00:00",
+          "day": "2026-11-30",
+          "opponent": "Carolina Panthers",
+          "home": true,
+          "status": "pre",
+          "detail": "11/30 - 8:15 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "ESPN"
+          ]
+        },
+        {
+          "id": "401873101",
+          "date": "2026-12-06T18:00:00+00:00",
+          "day": "2026-12-06",
+          "opponent": "Los Angeles Chargers",
+          "home": true,
+          "status": "pre",
+          "detail": "12/6 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "CBS"
+          ]
+        },
+        {
+          "id": "401873116",
+          "date": "2026-12-13T18:00:00+00:00",
+          "day": "2026-12-13",
+          "opponent": "Baltimore Ravens",
+          "home": false,
+          "status": "pre",
+          "detail": "12/13 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "M&T Bank Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401873134",
+          "date": "2026-12-20T18:00:00+00:00",
+          "day": "2026-12-20",
+          "opponent": "New Orleans Saints",
+          "home": true,
+          "status": "pre",
+          "detail": "12/20 - 1:00 PM EST",
+          "completed": false,
+          "timeTBD": false,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": [
+            "Fox"
+          ]
+        },
+        {
+          "id": "401873146",
+          "date": "2026-12-27T05:00:00+00:00",
+          "day": "2026-12-27",
+          "opponent": "Atlanta Falcons",
+          "home": false,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Mercedes-Benz Stadium",
+          "tv": []
+        },
+        {
+          "id": "401873159",
+          "date": "2027-01-03T05:00:00+00:00",
+          "day": "2027-01-03",
+          "opponent": "Los Angeles Rams",
+          "home": true,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Raymond James Stadium",
+          "tv": []
+        },
+        {
+          "id": "401873186",
+          "date": "2027-01-10T05:00:00+00:00",
+          "day": "2027-01-10",
+          "opponent": "New Orleans Saints",
+          "home": false,
+          "status": "pre",
+          "detail": "TBD",
+          "completed": false,
+          "timeTBD": true,
+          "score": null,
+          "opponentScore": null,
+          "venue": "Caesars Superdome",
+          "tv": []
+        }
+      ],
+      "source": "ESPN",
+      "checked": "2026-10-10T02:45:16.440256+00:00"
     }
   }
 }

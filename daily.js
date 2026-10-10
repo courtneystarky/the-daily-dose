@@ -46,8 +46,24 @@ $('#world .stories').innerHTML=feed('world');
 $('#world .eyebrow-chip').textContent='FROM BBC NEWS';
 $('#world').insertAdjacentHTML('beforeend','<p class="muted">Headlines from <a href="https://www.bbc.com/news">BBC News</a>. Follow the links for reporting and context.</p>');
 const teamCards=[['spurs','TOTTENHAM HOTSPUR','COME ON YOU SPURS ⚽','https://www.tottenhamhotspur.com/news/','https://www.tottenhamhotspur.com/fixtures/men/'],['aggies','TEXAS A&M AGGIES','GIG ’EM · FOOTBALL','https://12thman.com/sports/football','https://12thman.com/sports/football/schedule'],['bills','BUFFALO BILLS','JOSH ALLEN WATCH · #17','https://www.buffalobills.com/news/','https://www.buffalobills.com/schedule/'],['bucs','TAMPA BAY BUCCANEERS','RAISE THE FLAGS 🏴‍☠️','https://www.buccaneers.com/news/','https://www.buccaneers.com/schedule/']];
+const weekStart=new Date(date); weekStart.setUTCDate(weekStart.getUTCDate()-((weekStart.getUTCDay()+6)%7));
+const weekEnd=new Date(weekStart); weekEnd.setUTCDate(weekEnd.getUTCDate()+6);
+const isoDay=d=>d.toISOString().slice(0,10), shortDay=d=>d.toLocaleDateString('en-US',{timeZone:'UTC',month:'short',day:'numeric'});
+const gameMarkup=(game)=>{
+ const when=new Date(game.date), result=game.completed && game.score!=null && game.opponentScore!=null;
+ const time=game.timeTBD?'Time TBD':when.toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'})+' ET';
+ return '<div class="weekly-game"><div class="eyebrow">'+esc(when.toLocaleDateString('en-US',{timeZone:'America/New_York',weekday:'short',month:'short',day:'numeric'}))+' · '+esc(game.completed?'FINAL':game.status==='in'?'IN PROGRESS · AT LAST UPDATE':time)+'</div><h4>'+esc((game.home?'vs. ':'at ')+game.opponent)+'</h4>'+(result?'<div class="game-score">'+esc(game.score)+' – '+esc(game.opponentScore)+' <small>your team · opponent</small></div>':'')+'<p class="game-meta">'+esc([game.venue,...(game.tv||[])].filter(Boolean).join(' · '))+'</p></div>';
+};
+const weeklySchedule=key=>{
+ const schedule=data.schedules?.[key];
+ if(schedule?.status!=='ok')return '<div class="week-fixtures"><p>Schedule unavailable this morning. Use the official schedule below.</p></div>';
+ const games=schedule.items.filter(g=>g.day>=isoDay(weekStart)&&g.day<=isoDay(weekEnd));
+ const next=schedule.items.find(g=>g.day>isoDay(weekEnd)&&!g.completed);
+ return '<div class="week-fixtures"><div class="eyebrow">THIS WEEK’S GAMES</div>'+(games.length?games.map(gameMarkup).join(''):'<p>No game scheduled this week.</p>'+(next?'<div class="next-game"><div class="eyebrow">NEXT UP</div>'+gameMarkup(next)+'</div>':''))+'</div>';
+};
+$('#sports .two').insertAdjacentHTML('beforebegin','<p class="sports-week"><b>'+shortDay(weekStart)+' – '+shortDay(weekEnd)+'</b> · Monday–Sunday · All times Eastern<br><small>Schedules and results from ESPN, refreshed with each morning edition. Times can change; results reflect the last update.</small></p>');
 if(data.feeds.bills?.items)data.feeds.bills.items.sort((a,b)=>Number(/josh allen/i.test(b.title+' '+b.summary))-Number(/josh allen/i.test(a.title+' '+a.summary)));
-$('#sports .two').innerHTML=teamCards.map(([key,name,tag,news,schedule])=>'<article class="team-desk team-'+key+'"><div class="eyebrow">'+tag+'</div><h3>'+name+'</h3>'+((data.feeds[key]?.items||[]).length?feed(key,2):'<p class="muted">'+(data.feeds[key]?.status==='no_recent_stories'?'No recent team stories in this morning’s feed.':'Team headlines are unavailable this morning.')+' Check the official news below.</p>')+'<div class="team-links"><a href="'+news+'" target="_blank" rel="noopener noreferrer">Official team news ↗</a><a href="'+schedule+'" target="_blank" rel="noopener noreferrer">Schedule ↗</a>'+(key==='bills'?'<a href="https://www.buffalobills.com/team/players-roster/josh-allen/" target="_blank" rel="noopener noreferrer">Josh Allen · stats + highlights ↗</a>':'')+'</div></article>').join('');
+$('#sports .two').innerHTML=teamCards.map(([key,name,tag,news,schedule])=>'<article class="team-desk team-'+key+'"><div class="eyebrow">'+tag+'</div><h3>'+name+'</h3>'+weeklySchedule(key)+((data.feeds[key]?.items||[]).length?feed(key,2):'<p class="muted">'+(data.feeds[key]?.status==='no_recent_stories'?'No recent team stories in this morning’s feed.':'Team headlines are unavailable this morning.')+' Check the official news below.</p>')+'<div class="team-links"><a href="'+news+'" target="_blank" rel="noopener noreferrer">Official team news ↗</a><a href="'+schedule+'" target="_blank" rel="noopener noreferrer">Schedule ↗</a>'+(key==='bills'?'<a href="https://www.buffalobills.com/team/players-roster/josh-allen/" target="_blank" rel="noopener noreferrer">Josh Allen · stats + highlights ↗</a>':'')+'</div></article>').join('');
 $('#sports .pill').textContent='YOUR TEAMS · YOUR SPORTS DESK';
 
 const markets=[['S&P 500 · SPY','AMEX:SPY'],['Nasdaq 100 · QQQ','NASDAQ:QQQ'],['Dow · DIA','AMEX:DIA']];
